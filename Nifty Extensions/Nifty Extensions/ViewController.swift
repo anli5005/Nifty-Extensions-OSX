@@ -21,7 +21,10 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
+    
+    @IBAction func openSettings(sender: AnyObject?) {
+        NSWorkspace.sharedWorkspace().launchApplication("System Preferences")
+    }
 
 }
 
