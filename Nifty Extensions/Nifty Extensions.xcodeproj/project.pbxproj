@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ABF2B361AA8B19B0039A838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABF2B351AA8B19B0039A838 /* AppDelegate.swift */; };
+		4ABF2B381AA8B19B0039A838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABF2B371AA8B19B0039A838 /* ViewController.swift */; };
+		4ABF2B3A1AA8B19B0039A838 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABF2B391AA8B19B0039A838 /* Images.xcassets */; };
+		4ABF2B3D1AA8B19B0039A838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABF2B3B1AA8B19B0039A838 /* Main.storyboard */; };
+		4ABF2B491AA8B19C0039A838 /* Nifty_ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABF2B481AA8B19C0039A838 /* Nifty_ExtensionsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ABF2B431AA8B19C0039A838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ABF2B281AA8B19B0039A838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ABF2B2F1AA8B19B0039A838;
+			remoteInfo = "Nifty Extensions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ABF2B301AA8B19B0039A838 /* Nifty Extensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nifty Extensions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABF2B341AA8B19B0039A838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABF2B351AA8B19B0039A838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ABF2B371AA8B19B0039A838 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4ABF2B391AA8B19B0039A838 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4ABF2B3C1AA8B19B0039A838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ABF2B421AA8B19C0039A838 /* Nifty ExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nifty ExtensionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABF2B471AA8B19C0039A838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABF2B481AA8B19C0039A838 /* Nifty_ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nifty_ExtensionsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ABF2B2D1AA8B19B0039A838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABF2B3F1AA8B19C0039A838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ABF2B271AA8B19B0039A838 = {
+			isa = PBXGroup;
+			children = (
+				4ABF2B321AA8B19B0039A838 /* Nifty Extensions */,
+				4ABF2B451AA8B19C0039A838 /* Nifty ExtensionsTests */,
+				4ABF2B311AA8B19B0039A838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ABF2B311AA8B19B0039A838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ABF2B301AA8B19B0039A838 /* Nifty Extensions.app */,
+				4ABF2B421AA8B19C0039A838 /* Nifty ExtensionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ABF2B321AA8B19B0039A838 /* Nifty Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4ABF2B351AA8B19B0039A838 /* AppDelegate.swift */,
+				4ABF2B371AA8B19B0039A838 /* ViewController.swift */,
+				4ABF2B391AA8B19B0039A838 /* Images.xcassets */,
+				4ABF2B3B1AA8B19B0039A838 /* Main.storyboard */,
+				4ABF2B331AA8B19B0039A838 /* Supporting Files */,
+			);
+			path = "Nifty Extensions";
+			sourceTree = "<group>";
+		};
+		4ABF2B331AA8B19B0039A838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ABF2B341AA8B19B0039A838 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4ABF2B451AA8B19C0039A838 /* Nifty ExtensionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ABF2B481AA8B19C0039A838 /* Nifty_ExtensionsTests.swift */,
+				4ABF2B461AA8B19C0039A838 /* Supporting Files */,
+			);
+			path = "Nifty ExtensionsTests";
+			sourceTree = "<group>";
+		};
+		4ABF2B461AA8B19C0039A838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ABF2B471AA8B19C0039A838 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ABF2B2F1AA8B19B0039A838 /* Nifty Extensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABF2B4C1AA8B19C0039A838 /* Build configuration list for PBXNativeTarget "Nifty Extensions" */;
+			buildPhases = (
+				4ABF2B2C1AA8B19B0039A838 /* Sources */,
+				4ABF2B2D1AA8B19B0039A838 /* Frameworks */,
+				4ABF2B2E1AA8B19B0039A838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nifty Extensions";
+			productName = "Nifty Extensions";
+			productReference = 4ABF2B301AA8B19B0039A838 /* Nifty Extensions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ABF2B411AA8B19C0039A838 /* Nifty ExtensionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABF2B4F1AA8B19C0039A838 /* Build configuration list for PBXNativeTarget "Nifty ExtensionsTests" */;
+			buildPhases = (
+				4ABF2B3E1AA8B19C0039A838 /* Sources */,
+				4ABF2B3F1AA8B19C0039A838 /* Frameworks */,
+				4ABF2B401AA8B19C0039A838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABF2B441AA8B19C0039A838 /* PBXTargetDependency */,
+			);
+			name = "Nifty ExtensionsTests";
+			productName = "Nifty ExtensionsTests";
+			productReference = 4ABF2B421AA8B19C0039A838 /* Nifty ExtensionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ABF2B281AA8B19B0039A838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = anli5005;
+				TargetAttributes = {
+					4ABF2B2F1AA8B19B0039A838 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					4ABF2B411AA8B19C0039A838 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 4ABF2B2F1AA8B19B0039A838;
+					};
+				};
+			};
+			buildConfigurationList = 4ABF2B2B1AA8B19B0039A838 /* Build configuration list for PBXProject "Nifty Extensions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ABF2B271AA8B19B0039A838;
+			productRefGroup = 4ABF2B311AA8B19B0039A838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ABF2B2F1AA8B19B0039A838 /* Nifty Extensions */,
+				4ABF2B411AA8B19C0039A838 /* Nifty ExtensionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ABF2B2E1AA8B19B0039A838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABF2B3A1AA8B19B0039A838 /* Images.xcassets in Resources */,
+				4ABF2B3D1AA8B19B0039A838 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABF2B401AA8B19C0039A838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ABF2B2C1AA8B19B0039A838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABF2B381AA8B19B0039A838 /* ViewController.swift in Sources */,
+				4ABF2B361AA8B19B0039A838 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABF2B3E1AA8B19C0039A838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABF2B491AA8B19C0039A838 /* Nifty_ExtensionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ABF2B441AA8B19C0039A838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ABF2B2F1AA8B19B0039A838 /* Nifty Extensions */;
+			targetProxy = 4ABF2B431AA8B19C0039A838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ABF2B3B1AA8B19B0039A838 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ABF2B3C1AA8B19B0039A838 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ABF2B4A1AA8B19C0039A838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ABF2B4B1AA8B19C0039A838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4ABF2B4D1AA8B19C0039A838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Nifty Extensions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4ABF2B4E1AA8B19C0039A838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Nifty Extensions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4ABF2B501AA8B19C0039A838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nifty ExtensionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nifty Extensions.app/Contents/MacOS/Nifty Extensions";
+			};
+			name = Debug;
+		};
+		4ABF2B511AA8B19C0039A838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nifty ExtensionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nifty Extensions.app/Contents/MacOS/Nifty Extensions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ABF2B2B1AA8B19B0039A838 /* Build configuration list for PBXProject "Nifty Extensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABF2B4A1AA8B19C0039A838 /* Debug */,
+				4ABF2B4B1AA8B19C0039A838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABF2B4C1AA8B19C0039A838 /* Build configuration list for PBXNativeTarget "Nifty Extensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABF2B4D1AA8B19C0039A838 /* Debug */,
+				4ABF2B4E1AA8B19C0039A838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4ABF2B4F1AA8B19C0039A838 /* Build configuration list for PBXNativeTarget "Nifty ExtensionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABF2B501AA8B19C0039A838 /* Debug */,
+				4ABF2B511AA8B19C0039A838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ABF2B281AA8B19B0039A838 /* Project object */;
+}
